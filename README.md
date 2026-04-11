@@ -16,7 +16,6 @@ This project demonstrates modern AI system design including data ingestion, vect
 ## Tech Stack
 ### Backend
 - Python
-- FastAPI
 - LangChain
 ### AI / ML
 - OpenAI / LLM models
@@ -28,13 +27,6 @@ This project demonstrates modern AI system design including data ingestion, vect
 ## System Architecture
 User Question -> Streamlit UI ->  Retriever (Vector Database) -> Medical Knowledge Sources -> Large Language Model -> AI Generated Response
 
-## Installation
-1. Clone the repository -> git clone https://github.com/gomathi-ms/ai-healthcare-rag-chatbot.git ->  cd ai-healthcare-rag-chatbot
-2. Create virtual environment  ->  python -m venv venv
-3. Activate environment ->  source venv/bin/activate
-4. Install dependencies ->  pip install -r requirements.txt
-5. Run API  -->  uvicorn api.app:app
-6. Run UI  -->  streamlit run frontend/streamlit_app.py
 
 ## Setup
 1. Clone the repository -> git clone https://github.com/gomathinagiri/rag-medical-chatbot.git ->  cd rag-medical-chatbot
